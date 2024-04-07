@@ -17,7 +17,7 @@ const Header = () => {
           <Button variant={"unstyled"} color={"white"}>
             <Link to="/exchanges">Exchanges</Link>
           </Button>
-          <Button variant={"unstyled"} color={"white"}>
+          <Button pl={3} variant={"unstyled"} color={"white"}>
             <Link to="/coins">Coins</Link>
           </Button>
         </>
