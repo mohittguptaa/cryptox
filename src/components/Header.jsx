@@ -4,11 +4,10 @@ import { Link } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 
 const Header = () => {
-  const { loginWithRedirect, logout, isAuthenticated , user} = useAuth0();
+  const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
 
   return (
     <HStack p={"4"} shadow={"base"} bgColor={"blackAlpha.900"}>
-     <h3>welcome {user}</h3>
       <Button variant={"unstyled"} color={"white"}>
         <Link to="/">Home</Link>
       </Button>
